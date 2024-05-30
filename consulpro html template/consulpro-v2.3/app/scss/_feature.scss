@@ -1,0 +1,76 @@
+.feature-card {
+    position: relative;
+    overflow: hidden;
+    cursor  : pointer;
+    margin-bottom: 30px;
+    .feature-content {
+        position: absolute;
+        bottom: 0;
+        transform: rotate(-90deg);
+        left: 0;
+        height: 100%;
+        width: 277px;
+        @extend .overly;
+
+        &::before {
+            width      : 58px;
+            height     : 58px;
+            background : rgb(0, 65, 93);
+            background : linear-gradient(270deg, rgba(0, 65, 93, .40) 0%, rgba(244, 70, 46, 1) 65%, rgba(244, 70, 46, 1) 100%);
+            line-height: 65px;
+            /* 
+            @include opacity(0);
+            visibility : hidden; */
+            @include transition();
+        }
+
+        h3 {
+            margin  : 0;
+            position: relative;
+            bottom  : 5px;
+            color   : #fff;
+
+            span {
+
+                @include opacity(0);
+                @include transition();
+            }
+
+            i {
+                width           : 58px;
+                height          : 58px;
+                display         : inline-block;
+                line-height     : 65px;
+                text-align      : center;
+                font-size       : 27px;
+                color           : $brand-white;
+                margin-right    : 5px;
+                background-color: #F4462E;
+                transform       : rotate(90deg);
+                position        : relative;
+                bottom          : -5px;
+            }
+
+
+        }
+        @include tablet{
+            width: 255px;
+        }
+        @include xl-device{
+            width: 270px;
+        }
+    }
+
+    &:hover .feature-content::before {
+        @include opacity(1);
+        visibility: visible;
+        width     : 113%;
+    }
+
+    &:hover h3 span {
+        @include opacity(1);
+    }
+    @include mobile{
+        margin-bottom: 30px;
+    }
+}

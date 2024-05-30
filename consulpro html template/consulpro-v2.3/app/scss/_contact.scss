@@ -1,0 +1,167 @@
+/* ------------------------------------
+18. Contact
+--------------------------------------- */
+.contact-wrap {
+    max-width    : 90%;
+    margin-bottom: 100px;
+
+    @include tablet {
+        max-width: 97%;
+    }
+
+}
+
+form {
+    .form-group {
+        margin-bottom: 20px;
+        @include clear;
+
+        &.half-form {
+            width: 48%;
+            float: left;
+
+            &:nth-child(even) {
+                float: right;
+            }
+        }
+
+        input,
+        textarea {
+            background: #f6f6f6;
+            padding   : 16px 20px;
+            @include border-radius(5px);
+        }
+
+        .custom-btn {
+            margin-top: 30px;
+        }
+
+        @include mobile {
+            &.half-form {
+                width: 100%;
+                float: none;
+            }
+        }
+    }
+}
+
+#google-map {
+    height: 450px;
+    width : 100%;
+}
+
+.contact-widget {
+    background: #f6f6f6;
+    padding   : 30px 25px 10px;
+    @extend .round10;
+    margin-bottom: 20px;
+
+    .cw-inner {
+        .cw-item {
+            margin-bottom: 15px;
+
+            >i {
+                float    : left;
+                color    : $theme-color;
+                font-size: 24px;
+            }
+
+            .cw-txt {
+                margin-left: 45px;
+                display    : block;
+
+                h5 {
+                    font-size  : 22px;
+                    font-family: $font;
+                    font-weight: 600;
+                }
+
+                P {
+                    color    : #b9b9b9;
+                    max-width: 90%;
+                }
+            }
+        }
+    }
+
+    @include tablet {
+        padding: 30px 15px 10px;
+    }
+}
+
+.social-share {
+    span {
+        width     : 40px;
+        height    : 40px;
+        background: transparent;
+        display   : inline-table;
+        text-align: center;
+        @include border-radius(50%);
+        @include transition();
+
+        a {
+            display       : table-cell;
+            vertical-align: middle;
+            color         : $brand-blue;
+            font-size     : 18px;
+            line-height   : 1;
+        }
+
+        &:hover,
+        &.active {
+            background: $theme-color;
+
+            a {
+                color: $brand-white;
+            }
+        }
+    }
+}
+
+.consult-form-sec {
+    position  : relative;
+    margin-top: -250px;
+    z-index   : 1;
+}
+
+.consult-form {
+    padding            : 50px;
+    background-position: center center;
+    background-size    : cover;
+    background-repeat  : no-repeat;
+    @extend .overly;
+
+    &::before {
+
+        background: #013B54;
+        @include opacity(.98);
+    }
+    h2{
+        font-size: 30px;
+        color: $brand-white;
+        padding-left: 10px;
+        line-height: 1;
+        @extend .overly;
+        &::before{
+            width: 3px;
+            background-color: $theme-color;
+        }
+    }
+    .form-group {
+
+        input,
+        textarea {
+            border          : 1px solid #2B7A9B;
+            color           : #B5D1DE;
+            background-color: #055071;
+            padding: 12px 15px;
+        }
+
+        textarea {
+            height: 190px;
+        }
+    }
+    @include mobile{
+        padding: 30px 20px;
+    }
+}

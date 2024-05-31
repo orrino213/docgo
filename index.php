@@ -47,6 +47,8 @@
     </section>
     <!-- Banner Section End -->
 
+    <?php include get_template_directory() . '/snippets/stay-updated.php' ?>
+
     <section class="service-section section-padding">
         <div class="container">
             <div class="row g-0 service-inner">

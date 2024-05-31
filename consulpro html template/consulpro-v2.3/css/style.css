@@ -60,7 +60,7 @@ body {
 
 @media only screen and (min-width: 1400px) and (max-width: 1920px) {
   .container {
-    max-width: 1170px; } }
+    max-width: calc(100% - 28px); } }
 
 h1,
 h2,

@@ -47,39 +47,11 @@
     </section>
     <!-- Banner Section End -->
 
+    <!-- Stay Updated -->
     <?php include get_template_directory() . '/snippets/stay-updated.php' ?>
 
-    <section class="service-section section-padding">
-        <div class="container">
-            <div class="row g-0 service-inner">
-                <div class="col-lg-4 col-md-4">
-                    <div class="service-card">
-                        <h3>100% Satisfactions</h3>
-                        <p>Lorem Ipsum available, but the
-                            majority have suffered alteration
-                            some form, by injected.</p>
-                    </div>
-                </div> <!-- service card end -->
-                <div class="col-lg-4 col-md-4">
-                    <div class="service-card">
-                        <h3>24/7 Solutions</h3>
-                        <p>Lorem Ipsum available, but the
-                            majority have suffered alteration
-                            some form, by injected.</p>
-                    </div>
-                </div> <!-- service card end -->
-                <div class="col-lg-4 col-md-4">
-                    <div class="service-card">
-                        <h3>Free Consulting</h3>
-                        <p>Lorem Ipsum available, but the
-                            majority have suffered alteration
-                            some form, by injected.</p>
-                    </div>
-                </div> <!-- service card end -->
-            </div>
-        </div>
-    </section>
-    <!-- Service Section End -->
+    <!-- Video Cards -->
+    <?php include get_template_directory() . '/snippets/video-cards.php' ?>
 
     <!-- Business Section Start -->
     <section class="business-section">

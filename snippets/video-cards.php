@@ -6,7 +6,8 @@
 		line-height:106%;
 		font-size: 30px;
 		text-align:center;
-		letter-spacing: -2px;
+		margin-bottom:30px;
+
 	}
 	.video-cards h2 span{
 		color:#00B1CC;
@@ -62,7 +63,7 @@
 			padding:25px 15px;
 		}
 		.video-cards h2{
-			font-size:40px;
+			font-size:50px;
 			margin-bottom:35px;
 		}
 	}

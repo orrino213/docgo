@@ -769,7 +769,7 @@ li.nav-item ul.dropdown-menu li.dropdown:hover > .dropdown-menu {
   pointer-events: auto; }
 
 .header {
-  background: #00415D;
+  background: #fff;
   z-index: 9;
   /*   Home 1 Header */ }
   @media only screen and (max-width: 767px) {

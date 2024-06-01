@@ -5,32 +5,10 @@
         <img src="images/grey-dots.png" alt="" class="anim-2">
         <div class="container">
             <div class="row align-items-center">
-                <div class="col-12 col-md-6 col-xl-6 order-md-1">
-                    <div class="slide-img">
-                        <div class="video-img">
-                            <img src="images/video-promo.jpg" alt="">
-                        </div>
-                        <!-- Video Meta -->
-                        <div class="video-meta">
-                            <div class="video-icon"><a href="https://www.youtube.com/watch?v=PhY7uAMKYg4"
-                                    class="bn-video vbox-item" data-autoplay="true" data-vbtype="video"><i
-                                        class="flaticon-play-button"></i></a></div>
-                            <div class="success-stat">
-                                <div class="stat-shape">
-                                    <p> <span class="counter">100</span>%</p>
-                                </div>
-                                <p>100% Business Solutions</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
                 <div class="col-12 col-md-6 col-xl-6">
                     <div class="slide-txt">
-                        <h1 class="banner-title">Let's Grow
-                            Your Business<span>.</span></h1>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                            do eiusmod tempor incididunt ut labore et dolore magna
-                            aliqua. Ut enim ad minim veniam.</p>
+                        <h1 class="banner-title">Mobile Clinics Break Barriers: Expanding Healthcare in Rural Communities<span>.</span></h1>
+                        <p>Mobile clinics are revolutionizing healthcare by reaching underserved rural communities, providing essential services right at their doorsteps.</p>
                         <form action="#" class="mailchimp-sform">
                             <span class="input-icon"><i class="flaticon-email"></i></span>
                             <input type="email" name="subscribe" id="subscriber-email" placeholder="Enter your Email"

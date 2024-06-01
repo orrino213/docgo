@@ -10,38 +10,43 @@
     <?php wp_head(); ?>
 </head>
 
+<style>
+    .nav-option{
+        color: #000;
+        text-align: right;
+        font-family: "DM Sans";
+        font-size: 15px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: normal;
+        letter-spacing: 0.075px;
+    }
+
+    
+
+
+</style>
+
 <body>
 
     <!-- Index Header Start -->
     <header class="header index-header">
-        <div class="header-top">
-            <div class="container header-line">
-                <div class="top-info">
-                    <ul>
-                        <li><i class="flaticon-pin"></i>234 King Street, Australia</li>
-                        <li><i class="flaticon-phone-call"></i><a href="tel://+1-800-915-6270">+1-800-915-6270</a></li>
-                        <li><i class="flaticon-email"></i><a href="mailto://admin@consulpro.com">admin@consulpro.com</a>
-                        </li>
-                    </ul>
-                </div>
-            </div>
-        </div>
-        <div class="primary-navigation sticky-header">
-            <div class="container">
+        <div class="primary-navigation sticky-header top-navbar">
+            <div class="container top-navbar">
                 <nav class="navbar navbar-expand-md navbar-light">
                     <!-- Logo Here -->
-                    <a class="navbar-brand pl-5" href="index.html"><img src="images/alt-logo.png" alt="Logo"></a>
+                    <a class="navbar-brand pl-5" href="index.html"><img src="<?php echo get_template_directory_uri() ?>/assets/img/header-logo.png" alt="Logo"></a>
                     <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                         data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
                         aria-expanded="false" aria-label="Toggle navigation">
                         <span class="navbar-toggler-icon"></span>
                     </button>
                     <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                        <ul class="navbar-nav mx-auto">
+                        <ul class="navbar-nav nav-option">
                             <li class="nav-item dropdown">
-                                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                                <a class="nav-link" href="#" id="navbarDropdown" role="button"
                                     data-bs-toggle="dropdown" aria-expanded="false">
-                                    Home
+                                    About
                                 </a>
                                 <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
                                     <li><a class="dropdown-item" href="index.html">Home 1</a></li>
@@ -53,20 +58,20 @@
                             </li>
 
                             <li class="nav-item dropdown">
-                                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown2" role="button"
+                                <a class="nav-link" href="#" id="navbarDropdown2" role="button"
                                     data-bs-toggle="dropdown" aria-expanded="false">
-                                    Pages
+                                    Healthcare Reimagined
                                 </a>
                                 <ul class="dropdown-menu" aria-labelledby="navbarDropdown2">
                                     <li class="dropdown">
                                         <a class="dropdown-item" href="about.html">About</a>
                                     </li>
                                     <li class="dropdown">
-                                        <a class="dropdown-item dropdown-toggle" href="services.html">Services</a>
+                                        <a class="dropdown-item" href="services.html">Services</a>
                                         <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
                                             <li><a class="dropdown-item" href="service-details.html">Service Details</a>
                                             </li>
-                                            <li class="dropdown"><a class="dropdown-item dropdown-toggle"
+                                            <li class="dropdown"><a class="dropdown-item"
                                                     href="#">Level3</a>
                                                 <ul class="dropdown-menu dropdown-right"
                                                     aria-labelledby="navbarDropdown">
@@ -78,7 +83,7 @@
                                         </ul>
                                     </li>
                                     <li class="dropdown">
-                                        <a class="dropdown-item dropdown-toggle" href="#">Portfolio</a>
+                                        <a class="dropdown-item" href="#">Portfolio</a>
                                         <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
                                             <li><a class="dropdown-item" href="portfolio-1.html">Portfolio Grid</a></li>
                                             <li><a class="dropdown-item" href="portfolio-2.html">Portfolio Masonry</a>
@@ -88,7 +93,7 @@
                                         </ul>
                                     </li>
                                     <li class="dropdown">
-                                        <a class="dropdown-item dropdown-toggle" href="team.html">Team</a>
+                                        <a class="dropdown-item" href="team.html">Team</a>
                                         <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
                                             <li><a class="dropdown-item" href="team-details.html">Team Details</a></li>
                                         </ul>
@@ -108,9 +113,9 @@
                                 </ul>
                             </li>
                             <li class="nav-item dropdown">
-                                <a class="nav-link dropdown-toggle" href="blog.html" id="navbarDropdown3" role="button"
+                                <a class="nav-link" href="blog.html" id="navbarDropdown3" role="button"
                                     data-bs-toggle="dropdown" aria-expanded="false">
-                                    Blog
+                                    Care For All
                                 </a>
                                 <ul class="dropdown-menu" aria-labelledby="navbarDropdown3">
                                     <li class="dropdown">
@@ -128,9 +133,9 @@
                                 </ul>
                             </li>
                             <li class="nav-item dropdown">
-                                <a class="nav-link dropdown-toggle" href="shop.html" id="navbarDropdown4" role="button"
+                                <a class="nav-link" href="shop.html" id="navbarDropdown4" role="button"
                                     data-bs-toggle="dropdown" aria-expanded="false">
-                                    Shop
+                                    Mobile Healthcare
                                 </a>
                                 <ul class="dropdown-menu" aria-labelledby="navbarDropdown4">
                                     <li class="dropdown">
@@ -156,14 +161,7 @@
                                     </li>
                                 </ul>
                             </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="contact.html">Contact</a>
-                            </li>
-                            <li class="get-started">
-                                <a href="contact.html" class="custom-btn">Get Started</a>
-                            </li>
                         </ul>
-
                     </div>
                 </nav>
             </div>

@@ -1,15 +1,3 @@
-<!-- <link rel="apple-touch-icon" href="images/favicon.png">
-    <link rel="shortcut icon" href="images/favicon.ico">
-
-    <link rel="stylesheet" href="css/bootstrap.min.css">
-    <link rel="stylesheet" href="css/animate.css">
-    <link rel="stylesheet" href="font/flaticon.css">
-    <link rel="stylesheet" href="css/owl.carousel.min.css">
-    <link rel="stylesheet" href="css/venobox.min.css">
-    <link rel="stylesheet" href="css/jquery-ui.min.css">
-
-    <link rel="stylesheet" href="css/style.css"> -->
-
 <?php
 
 /*
@@ -36,7 +24,7 @@ function your_theme_enqueue_scripts() {
     wp_enqueue_style('template-style-3', get_template_directory_uri() . '/consulpro html template/consulpro-v2.3/css/flaticon.css');
     wp_enqueue_style('template-style-4', get_template_directory_uri() . '/consulpro html template/consulpro-v2.3/css/owl.carousel.min.css');
     wp_enqueue_style('template-style-7', get_template_directory_uri() . '/consulpro html template/consulpro-v2.3/css/style.css');
-    wp_enqueue_style( 'your-theme-style', get_stylesheet_uri() .'/style.css' );
+    wp_enqueue_style( 'your-theme-style', get_template_directory_uri() .'/style.css' );
 
     // // Enqueue a custom scripts
     wp_enqueue_script( 'your-theme-script-1', get_template_directory_uri() . '/consulpro html template/consulpro-v2.3/js/jquery-3.6.0.min.js');

@@ -1,3 +1,44 @@
+@font-face {
+    font-family: 'NimbusSanL';
+    src: url('./assets/fonts/NimbusSanL-Reg.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'NimbusSanL-Bold';
+    src: url('./assets/fonts/NimbusSanL-Bol.otf') format('opentype');
+    font-weight: bold;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'NimbusSanL-BoldIta';
+    src: url('./assets/fonts/NimbusSanL-BoldIta.otf') format('opentype');
+    font-weight: bold;
+    font-style: italic;
+}
+@font-face {
+    font-family: 'NimbusSanL-Ita';
+    src: url('./assets/fonts/NimbusSanL-Ita.otf') format('opentype');
+    font-weight: normal;
+    font-style: italic;
+}
+@font-face {
+    font-family: 'Tungsten-Bold';
+    src: url('./assets/fonts/Tungsten-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+}
 body,html{
 	overflow-x:hidden !important;
+	font-family:'NimbusSanL',sans-serif;
+}
+h1,h2{
+	font-family:'Tungsten-Bold',sans-serif !important;
+	font-weight:900;
+	color:#131E29;;
+}
+h3,h4,h5,h6{
+	font-family:'NimbusSanL-Bold', sans-serif;
+	font-weight:bold;
+	color:#000;
 }

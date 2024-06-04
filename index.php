@@ -1,29 +1,7 @@
 <?php get_header(); ?>
 
-    <!-- Banner Section Start -->
-    <section class="banner-section video-banner">
-        <img src="images/grey-dots.png" alt="" class="anim-2">
-        <div class="container">
-            <div class="row align-items-center">
-                <div class="col-12 col-md-6 col-xl-6">
-                    <div class="slide-txt">
-                        <h1 class="banner-title">Mobile Clinics Break Barriers: Expanding Healthcare in Rural Communities<span>.</span></h1>
-                        <p>Mobile clinics are revolutionizing healthcare by reaching underserved rural communities, providing essential services right at their doorsteps.</p>
-                        <form action="#" class="mailchimp-sform">
-                            <span class="input-icon"><i class="flaticon-email"></i></span>
-                            <input type="email" name="subscribe" id="subscriber-email" placeholder="Enter your Email"
-                                class="form-control">
-                            <button type="submit" id="subscribe-button" class="custom-btn">Subscribe</button>
-                            <span class="subscription-success text-success"> </span>
-                            <span class="subscription-error text-danger"> </span>
-                            <label class="subscription-label text-white" for="subscriber-email"></label>
-                        </form>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-    <!-- Banner Section End -->
+    <!-- Banner Section -->
+    <?php include get_template_directory() . '/snippets/hero-banner.php' ?>
 
     <!-- Stay Updated -->
     <?php include get_template_directory() . '/snippets/stay-updated.php' ?>

@@ -1,57 +1,20 @@
 <?php get_header(); ?>
 
-    <!-- Banner Section Start -->
-    <section class="banner-section video-banner">
-        <img src="images/grey-dots.png" alt="" class="anim-2">
-        <div class="container">
-            <div class="row align-items-center">
-                <div class="col-12 col-md-6 col-xl-6 order-md-1">
-                    <div class="slide-img">
-                        <div class="video-img">
-                            <img src="images/video-promo.jpg" alt="">
-                        </div>
-                        <!-- Video Meta -->
-                        <div class="video-meta">
-                            <div class="video-icon"><a href="https://www.youtube.com/watch?v=PhY7uAMKYg4"
-                                    class="bn-video vbox-item" data-autoplay="true" data-vbtype="video"><i
-                                        class="flaticon-play-button"></i></a></div>
-                            <div class="success-stat">
-                                <div class="stat-shape">
-                                    <p> <span class="counter">100</span>%</p>
-                                </div>
-                                <p>100% Business Solutions</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-12 col-md-6 col-xl-6">
-                    <div class="slide-txt">
-                        <h1 class="banner-title">Let's Grow
-                            Your Business<span>.</span></h1>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                            do eiusmod tempor incididunt ut labore et dolore magna
-                            aliqua. Ut enim ad minim veniam.</p>
-                        <form action="#" class="mailchimp-sform">
-                            <span class="input-icon"><i class="flaticon-email"></i></span>
-                            <input type="email" name="subscribe" id="subscriber-email" placeholder="Enter your Email"
-                                class="form-control">
-                            <button type="submit" id="subscribe-button" class="custom-btn">Subscribe</button>
-                            <span class="subscription-success text-success"> </span>
-                            <span class="subscription-error text-danger"> </span>
-                            <label class="subscription-label text-white" for="subscriber-email"></label>
-                        </form>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-    <!-- Banner Section End -->
+    <!-- Banner Section -->
+    <?php include get_template_directory() . '/snippets/hero-banner.php' ?>
 
     <!-- Stay Updated -->
     <?php include get_template_directory() . '/snippets/stay-updated.php' ?>
 
     <!-- Video Cards -->
     <?php include get_template_directory() . '/snippets/video-cards.php' ?>
+
+    <!-- Video Banner -->
+   <?php include get_template_directory() . '/snippets/video-section.php' ?>
+
+    <!-- Pre-Footer Banner -->
+    <?php include get_template_directory() . '/snippets/pre-footer-banner.php' ?>
+
 
     <!-- Business Section Start -->
     <section class="business-section">
@@ -182,125 +145,6 @@
     </section>
     <!-- Benifit Section End -->
 
-    <!-- Testimonial Section Start -->
-    <section class="testimonial-2">
-        <img src="images/testmonial-shape.png" alt="" class="anim-img">
-        <img src="images/testmonial-shape.png" alt="" class="anim-img anim-2">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12">
-                    <div class="section-intro">
-                        <h2 class="section-title">What Our Loving
-                            Clients Saying<span class="color">.</span></h2>
-                        <p>Lorem Ipsum available the majority have suffered alteration
-                            in some form, by injected humour, or randomised.</p>
-                    </div>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-lg-12">
-                    <div class="quote-slider2 owl-carousel">
-                        <div class="quote">
-                            <div class="quote-head">
-                                <div class="quote-thumb">
-                                    <img src="images/ts1.jpg" alt="">
-                                </div>
-                                <div class="quote-info">
-                                    <h3>Tariqul Islam</h3>
-                                    <span>New Zealand</span>
-                                    <div class="ratings">
-                                        <i class="flaticon-star"></i>
-                                        <i class="flaticon-star"></i>
-                                        <i class="flaticon-star"></i>
-                                        <i class="flaticon-star"></i>
-                                        <i class="flaticon-star"></i>
-                                    </div>
-                                </div>
-                            </div>
-                            <p>Lorem Ipsum available, but the majority have
-                                suffered alteration in some form, by injected
-                                humour, or randomised words which don't
-                                look even slightly believable</p>
-                        </div> <!-- Quote End -->
-                        <div class="quote">
-                            <div class="quote-head">
-                                <div class="quote-thumb">
-                                    <img src="images/ts1.jpg" alt="">
-                                </div>
-                                <div class="quote-info">
-                                    <h3>David Malan</h3>
-                                    <span>Australia</span>
-                                    <div class="ratings">
-                                        <i class="flaticon-star"></i>
-                                        <i class="flaticon-star"></i>
-                                        <i class="flaticon-star"></i>
-                                        <i class="flaticon-star"></i>
-                                        <i class="flaticon-star-1"></i>
-                                    </div>
-                                </div>
-                            </div>
-                            <p>Lorem Ipsum available, but the majority have
-                                suffered alteration in some form, by injected
-                                humour, or randomised words which don't
-                                look even slightly believable</p>
-                        </div> <!-- Quote End -->
-                        <div class="quote">
-                            <div class="quote-head">
-                                <div class="quote-thumb">
-                                    <img src="images/ts1.jpg" alt="">
-                                </div>
-                                <div class="quote-info">
-                                    <h3>David Malan</h3>
-                                    <span>Australia</span>
-                                    <div class="ratings">
-                                        <i class="flaticon-star"></i>
-                                        <i class="flaticon-star"></i>
-                                        <i class="flaticon-star"></i>
-                                        <i class="flaticon-star"></i>
-                                        <i class="flaticon-star-1"></i>
-                                    </div>
-                                </div>
-                            </div>
-                            <p>Lorem Ipsum available, but the majority have
-                                suffered alteration in some form, by injected
-                                humour, or randomised words which don't
-                                look even slightly believable</p>
-                        </div> <!-- Quote End -->
-                    </div>
-
-                </div>
-            </div>
-        </div>
-    </section>
-    <!-- Testimonial Section End -->
-
-    <!-- Talk Section Start -->
-    <section class="talk-section">
-        <div class="talk-bg" style="background-image: url('./images/talk-bg.jpg');">
-
-            <div class="video-block">
-                <div class="waves wave-1"></div>
-                <div class="waves wave-2"></div>
-                <div class="waves wave-3"></div>
-                <a href="https://www.youtube.com/watch?v=PhY7uAMKYg4" class="video venobox" data-autoplay="true"
-                    data-vbtype="video"><i class="flaticon-play"></i></a>
-            </div>
-        </div>
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12">
-                    <div class="talk-txt text-center">
-                        <h2 class="section-title">Consulting from Experienced Consultant.</h2>
-                        <p> Lorem Ipsum available, but the majority have suffered alteration in some form, by injected
-                            humour, or randomised words which don't look even slightly believable</p>
-                        <a href="contact.html" class="custom-btn">Contact Us</a>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-    <!-- Talk Section End -->
-
     <!-- Blog Section Start -->
     <section class="blog blog-2 section-padding">
         <img src="images/testmonial-shape.png" alt="" class="anim-img">
@@ -386,5 +230,6 @@
         </div>
     </section>
     <!-- Blog Section End -->
+
 
 <?php get_footer(); ?>

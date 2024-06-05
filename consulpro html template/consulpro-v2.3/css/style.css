@@ -44,7 +44,9 @@ Tags: consultation, template, business, bootstrap 5, agency
 /* ======================================
 1. General
 ========================================*/
+@import url("https://fonts.googleapis.com/css2?family=Fira+Sans:wght@500;600;700&family=Poppins:wght@400;500;700&display=swap");
 body {
+  font-family: "Poppins", sans-serif;
   background-color: #fff;
   color: #455359;
   font-weight: 400;
@@ -59,6 +61,18 @@ body {
 @media only screen and (min-width: 1400px) and (max-width: 1920px) {
   .container {
     max-width: calc(100% - 28px); } }
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin-bottom: 10px;
+  font-weight: 700;
+  line-height: 1.2;
+  font-family: "Fira Sans", sans-serif;
+  color: #00415D; }
 
 a {
   color: #455359;
@@ -755,7 +769,7 @@ li.nav-item ul.dropdown-menu li.dropdown:hover > .dropdown-menu {
   pointer-events: auto; }
 
 .header {
-  background: #00415D;
+  background: #fff;
   z-index: 9;
   /*   Home 1 Header */ }
   @media only screen and (max-width: 767px) {

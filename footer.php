@@ -1,36 +1,12 @@
  <!-- Footer Section Start -->
     <footer class="footer">
-        <div class="container">
-            <div class="row subscribe-wrap align-items-center">
-                <div class="col-lg-6">
-                    <div class="subs-txt">
-                        <span><i class="flaticon-chat"></i></span>
-                        <h3>Sign up to get Latest Updates</h3>
-                        <p>Lorem Ipsum available, but the majority have suffered alteration in some form, by injected
-                            humour.</p>
-                    </div>
-                </div>
-                <div class="col-lg-6">
-                    <div class="subs-form">
-                        <form action="#" class="mailchimp-sform">
-                            <input type="email" name="subscribe" id="subscriber-email2" placeholder="Enter your Email"
-                                class="form-control">
-                            <button type="submit" id="subscribe-button2" class="custom-btn">Subscribe</button>
-                            <span class="subscription-success text-success"> </span>
-                            <span class="subscription-error text-danger"> </span>
-                            <label class="subscription-label" for="subscriber-email2"></label>
-                        </form>
-                    </div>
-                </div>
-            </div>
-        </div>
         <div class="footer-top">
             <div class="container">
                 <div class="row">
                     <div class="col-lg-4 col-sm-6">
                         <div class="footer-widget about-footer">
                             <div class="f-logo mb-4">
-                                <a href="index.html"><img src="images/f-logo.png" alt="Logo"></a>
+                                <a href="index.html"><img src="<?php echo get_template_directory_uri() ?>/assets/img/header-logo.png" alt="Logo"></a>
                             </div>
                             <p>Lorem Ipsum available, but the majority suffered alteration in some form, by humour, or
                                 randomised words.</p>

@@ -9,6 +9,13 @@
     <!-- Video Cards -->
     <?php include get_template_directory() . '/snippets/video-cards.php' ?>
 
+    <!-- Video Banner -->
+   <?php include get_template_directory() . '/snippets/video-section.php' ?>
+
+    <!-- Pre-Footer Banner -->
+    <?php include get_template_directory() . '/snippets/pre-footer-banner.php' ?>
+
+
     <!-- Business Section Start -->
     <section class="business-section">
         <div class="container">
@@ -138,125 +145,6 @@
     </section>
     <!-- Benifit Section End -->
 
-    <!-- Testimonial Section Start -->
-    <section class="testimonial-2">
-        <img src="images/testmonial-shape.png" alt="" class="anim-img">
-        <img src="images/testmonial-shape.png" alt="" class="anim-img anim-2">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12">
-                    <div class="section-intro">
-                        <h2 class="section-title">What Our Loving
-                            Clients Saying<span class="color">.</span></h2>
-                        <p>Lorem Ipsum available the majority have suffered alteration
-                            in some form, by injected humour, or randomised.</p>
-                    </div>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-lg-12">
-                    <div class="quote-slider2 owl-carousel">
-                        <div class="quote">
-                            <div class="quote-head">
-                                <div class="quote-thumb">
-                                    <img src="images/ts1.jpg" alt="">
-                                </div>
-                                <div class="quote-info">
-                                    <h3>Tariqul Islam</h3>
-                                    <span>New Zealand</span>
-                                    <div class="ratings">
-                                        <i class="flaticon-star"></i>
-                                        <i class="flaticon-star"></i>
-                                        <i class="flaticon-star"></i>
-                                        <i class="flaticon-star"></i>
-                                        <i class="flaticon-star"></i>
-                                    </div>
-                                </div>
-                            </div>
-                            <p>Lorem Ipsum available, but the majority have
-                                suffered alteration in some form, by injected
-                                humour, or randomised words which don't
-                                look even slightly believable</p>
-                        </div> <!-- Quote End -->
-                        <div class="quote">
-                            <div class="quote-head">
-                                <div class="quote-thumb">
-                                    <img src="images/ts1.jpg" alt="">
-                                </div>
-                                <div class="quote-info">
-                                    <h3>David Malan</h3>
-                                    <span>Australia</span>
-                                    <div class="ratings">
-                                        <i class="flaticon-star"></i>
-                                        <i class="flaticon-star"></i>
-                                        <i class="flaticon-star"></i>
-                                        <i class="flaticon-star"></i>
-                                        <i class="flaticon-star-1"></i>
-                                    </div>
-                                </div>
-                            </div>
-                            <p>Lorem Ipsum available, but the majority have
-                                suffered alteration in some form, by injected
-                                humour, or randomised words which don't
-                                look even slightly believable</p>
-                        </div> <!-- Quote End -->
-                        <div class="quote">
-                            <div class="quote-head">
-                                <div class="quote-thumb">
-                                    <img src="images/ts1.jpg" alt="">
-                                </div>
-                                <div class="quote-info">
-                                    <h3>David Malan</h3>
-                                    <span>Australia</span>
-                                    <div class="ratings">
-                                        <i class="flaticon-star"></i>
-                                        <i class="flaticon-star"></i>
-                                        <i class="flaticon-star"></i>
-                                        <i class="flaticon-star"></i>
-                                        <i class="flaticon-star-1"></i>
-                                    </div>
-                                </div>
-                            </div>
-                            <p>Lorem Ipsum available, but the majority have
-                                suffered alteration in some form, by injected
-                                humour, or randomised words which don't
-                                look even slightly believable</p>
-                        </div> <!-- Quote End -->
-                    </div>
-
-                </div>
-            </div>
-        </div>
-    </section>
-    <!-- Testimonial Section End -->
-
-    <!-- Talk Section Start -->
-    <section class="talk-section">
-        <div class="talk-bg" style="background-image: url('./images/talk-bg.jpg');">
-
-            <div class="video-block">
-                <div class="waves wave-1"></div>
-                <div class="waves wave-2"></div>
-                <div class="waves wave-3"></div>
-                <a href="https://www.youtube.com/watch?v=PhY7uAMKYg4" class="video venobox" data-autoplay="true"
-                    data-vbtype="video"><i class="flaticon-play"></i></a>
-            </div>
-        </div>
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12">
-                    <div class="talk-txt text-center">
-                        <h2 class="section-title">Consulting from Experienced Consultant.</h2>
-                        <p> Lorem Ipsum available, but the majority have suffered alteration in some form, by injected
-                            humour, or randomised words which don't look even slightly believable</p>
-                        <a href="contact.html" class="custom-btn">Contact Us</a>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-    <!-- Talk Section End -->
-
     <!-- Blog Section Start -->
     <section class="blog blog-2 section-padding">
         <img src="images/testmonial-shape.png" alt="" class="anim-img">
@@ -342,5 +230,6 @@
         </div>
     </section>
     <!-- Blog Section End -->
+
 
 <?php get_footer(); ?>

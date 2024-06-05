@@ -14,7 +14,7 @@
     .header.index-header .primary-navigation .nav-item .nav-link.nav-option{
         color: #000;
         text-align: right;
-/*        font-family: "Nimbus Sans L";*/
+        font-family: "NimbusSanL";
         font-size: 15px;
         font-style: normal;
         font-weight: 500;

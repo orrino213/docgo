@@ -1,3 +1,27 @@
+<style>
+    
+.footer{
+    padding: 0;
+    margin-top: 100px;
+    background: #131E29;
+}
+
+.divider-line{
+    width: 1px;
+    height: 143px;
+    opacity: 0.3;
+    background: #FFF;
+    padding: 0;
+    margin-right: 10%;
+}
+
+.row{
+    display: flex;
+    flex-wrap: nowrap;
+}
+
+</style>
+
  <!-- Footer Section Start -->
     <footer class="footer">
         <div class="footer-top">
@@ -9,87 +33,21 @@
                                 <a href="index.html"><img src="<?php echo get_template_directory_uri() ?>/assets/img/header-logo-dark.png" alt="Logo"></a>
                             </div>
                             <p>ProactiveCareNow is a DocGo Publication.</p>
-                            <div class="footer-social mt-5">
-                                <span><a href="#"><i class="flaticon-facebook"></i></a></span>
-                                <span><a href="#"><i class="flaticon-linkedin"></i></a></span>
-                                <span><a href="#"><i class="flaticon-twitter"></i></a></span>
-                                <span><a href="#"><i class="flaticon-instagram"></i></a></span>
-                                <span><a href="#"><i class="flaticon-pinterest"></i></a></span>
-
-                            </div>
-                        </div>
-
-                    </div>
-                    <!-- Footer Widget End -->
-                    <div class="col-lg-2 col-sm-6">
-                        <div class="footer-widget">
-                            <h3 class="widget-title">Quick Links <span>.</span></h3>
-                            <ul>
-                                <li><a href="contact.html">Make Appointment</a></li>
-                                <li><a href="service-details.html">Customer Services</a></li>
-                                <li><a href="about.html">About Company</a></li>
-                                <li><a href="portfolio-2.html">Our Case Studies</a></li>
-                                <li><a href="contact.html">Free Consultation</a></li>
-                                <li><a href="team.html">Meet Our Experts</a></li>
-                            </ul>
+                            <p>© 2024 DocGo, Inc. All Rights Reserved</p>
                         </div>
                     </div>
-                    <!-- Footer Widget End -->
-                    <div class="col-lg-3 col-sm-6">
-                        <div class="footer-widget contact-widget">
-                            <h3 class="widget-title">Contact Info <span>.</span></h3>
-                            <div class="footer-contact">
-                                <p><i class="flaticon-pin"></i> 1234 King Street, Australia</p>
-                                <p><i class="flaticon-phone-call"></i> <a
-                                        href="tel://+1-800-915-6270">+1-800-915-6270</a></p>
-                                <p><i class="flaticon-email"></i><a
-                                        href="mailto://consulpro@mail.com">consulpro@mail.com</a></p>
-                            </div>
+                    <div class="divider-line"></div>
+                    <div class="col-lg-4 col-sm-6">
+                        <div class="footer-widget about-footer">
+                            <p>Privacy Policy  |  Terms of Service  |  DocGo</p>
+                            <p>Care provided by Mobile Medical Healthcare, P.C. and affiliated practices.</p>
                         </div>
                     </div>
-                    <!-- Footer Widget End -->
-                    <div class="col-lg-3 col-sm-6">
-                        <div class="footer-widget">
-                            <h3 class="widget-title">Recent Posts <span>.</span></h3>
-                            <div class="latest-posts clearfix">
-                                <div class="ls-single">
-                                    <a href="#"><img src="images/ls1.jpg" alt=""></a>
-                                </div>
-                                <div class="ls-single">
-                                    <a href="#"><img src="images/ls2.jpg" alt=""></a>
-                                </div>
-                                <div class="ls-single">
-                                    <a href="#"><img src="images/ls3.jpg" alt=""></a>
-                                </div>
-                                <div class="ls-single">
-                                    <a href="#"><img src="images/ls4.jpg" alt=""></a>
-                                </div>
-                                <div class="ls-single">
-                                    <a href="#"><img src="images/ls5.jpg" alt=""></a>
-                                </div>
-
-                            </div>
-                        </div>
+                    <div>
+                        <img src="<?php echo get_template_directory_uri() ?>/assets/img/footer-nasdaq-img.png" alt="video"  />
                     </div>
-                    <!-- Footer Widget End -->
-                </div>
-            </div>
-        </div>
-        <div class="footer-bottom">
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-6 col-sm-7">
-                        <p>© 2022 All Rights Reserved by <a href="https://themeforest.net/user/theme-village"
-                                rel="noopener" target="_blank">theme-vilage</a></p>
-                    </div>
-                    <div class="col-lg-6 col-sm-5">
-                        <nav class="footer-nav">
-                            <ul>
-                                <li><a href="index.html">Home</a></li>
-                                <li><a href="about.html">About</a></li>
-                                <li><a href="services.html">Services</a></li>
-                            </ul>
-                        </nav>
+                    <div>
+                        <img src="<?php echo get_template_directory_uri() ?>/assets/img/certified-img.png" alt="picture"  />
                     </div>
                 </div>
             </div>

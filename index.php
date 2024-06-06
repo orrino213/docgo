@@ -9,7 +9,7 @@
     <!-- Video Cards -->
     <?php include get_template_directory() . '/snippets/video-cards.php' ?>
 
-    <!-- Video Banner -->
+    <!-- Video Section -->
    <?php include get_template_directory() . '/snippets/video-section.php' ?>
 
     <!-- Pre-Footer Banner -->

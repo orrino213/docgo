@@ -40,7 +40,8 @@
     .video-image-container{
         max-width: 100%;
         max-height: 100%;
-        padding-right: 150px;
+        padding-right: 80px;
+        padding-left: 50px;
         padding-top: 150px;
         padding-bottom: 150px;
         position: relative;
@@ -51,13 +52,6 @@
         display: block;
         width: 100%; 
         height: auto;
-    }
-
-    .play-button{
-        position: absolute;
-        top: 50%;
-        left: 40%;
-        transform: translate(-50%, -50%); 
     }
 
 </style>
@@ -73,7 +67,6 @@
                     </div>
                     <div class="video-image-container">
                         <img class="video-image" src="<?php echo get_template_directory_uri() ?>/assets/img/video-banner-image.png" alt="video"  />
-                        <img class="play-button" src="<?php echo get_template_directory_uri() ?>/assets/img/play-button.png" alt="play"  />
                     </div>
                 </div>
             </div>

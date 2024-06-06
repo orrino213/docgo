@@ -6,10 +6,9 @@
                     <div class="col-lg-4 col-sm-6">
                         <div class="footer-widget about-footer">
                             <div class="f-logo mb-4">
-                                <a href="index.html"><img src="<?php echo get_template_directory_uri() ?>/assets/img/header-logo.png" alt="Logo"></a>
+                                <a href="index.html"><img src="<?php echo get_template_directory_uri() ?>/assets/img/header-logo-dark.png" alt="Logo"></a>
                             </div>
-                            <p>Lorem Ipsum available, but the majority suffered alteration in some form, by humour, or
-                                randomised words.</p>
+                            <p>ProactiveCareNow is a DocGo Publication.</p>
                             <div class="footer-social mt-5">
                                 <span><a href="#"><i class="flaticon-facebook"></i></a></span>
                                 <span><a href="#"><i class="flaticon-linkedin"></i></a></span>

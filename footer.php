@@ -20,6 +20,10 @@
     flex-wrap: nowrap;
 }
 
+.nasdaq{
+    padding-right: 40px;
+}
+
 </style>
 
  <!-- Footer Section Start -->
@@ -44,9 +48,7 @@
                         </div>
                     </div>
                     <div>
-                        <img src="<?php echo get_template_directory_uri() ?>/assets/img/footer-nasdaq-img.png" alt="video"  />
-                    </div>
-                    <div>
+                        <img class="nasdaq" src="<?php echo get_template_directory_uri() ?>/assets/img/footer-nasdaq-img.png" alt="video"  />
                         <img src="<?php echo get_template_directory_uri() ?>/assets/img/certified-img.png" alt="picture"  />
                     </div>
                 </div>

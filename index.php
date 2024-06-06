@@ -12,6 +12,9 @@
     <!-- Video Banner -->
    <?php include get_template_directory() . '/snippets/video-section.php' ?>
 
+   <!-- Blog Section -->
+   <?php include get_template_directory() . '/snippets/blog-section.php' ?>
+
     <!-- Pre-Footer Banner -->
     <?php include get_template_directory() . '/snippets/pre-footer-banner.php' ?>
 

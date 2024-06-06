@@ -45,7 +45,7 @@
 			display:none;
 		}
 		.video-cards .video-desktop-row{
-			max-width:1775px;
+			max-width:1425px;
 			width:100%;
 			margin:0 auto;
 			display:flex;

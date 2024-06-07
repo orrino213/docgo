@@ -23,9 +23,15 @@
         background-color: #FFF;
     }
 
-    .arrow ::after {
-        content: "";
-        background: ;
+    .header-arrow::after{
+        content: url('<?php echo get_template_directory_uri() ?>/assets/img/header-arrow.svg');
+        display: inline-block;
+        margin-left: 5px;
+        width: 3.831px;
+        height: 7.662px;
+        flex-shrink: 0;
+        stroke-width: 1.5px;
+        stroke: #00B1CC;
     }
 </style>
 
@@ -45,7 +51,7 @@
                     <div class="collapse navbar-collapse" id="navbarSupportedContent">
                         <ul class="navbar-nav">
                             <li class="nav-item dropdown">
-                                <a class="nav-link nav-option" href="#" id="navbarDropdown" role="button"
+                                <a class="nav-link nav-option header-arrow" href="#" id="navbarDropdown" role="button"
                                     data-bs-toggle="dropdown" aria-expanded="false">
                                     About
                                 </a>

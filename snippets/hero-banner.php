@@ -1,6 +1,6 @@
 <style>
     .arrow-text::after {
-      content: '';
+      content: url('<?php echo get_template_directory_uri() ?>/assets/img/arrow-1.svg');
       display: inline-block;
       width: 1.6px;
       height: 1.6px;
@@ -40,8 +40,8 @@
         display: flex;
         justify-content: center;
         align-items: center;
-        padding-top: 10%;
-        padding-bottom: 10%;
+        padding-top: 100px;
+        padding-bottom: 100px;
     }
 
     .mobile-clinics-title{

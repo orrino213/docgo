@@ -23,8 +23,8 @@
         background-color: #FFF;
     }
 
-    .nav-item .dropdown .vector-arrow::after{
-        content: url('<?php echo get_template_directory_uri() ?>/assets/img/arrow-1.svg');
+    .header-arrow::after{
+        content: url('<?php echo get_template_directory_uri() ?>/assets/img/header-arrow.svg');
         display: inline-block;
         margin-left: 5px;
         width: 3.831px;
@@ -50,8 +50,8 @@
                     </button>
                     <div class="collapse navbar-collapse" id="navbarSupportedContent">
                         <ul class="navbar-nav">
-                            <li class="nav-item dropdown vector-arrow">
-                                <a class="nav-link nav-option" href="#" id="navbarDropdown" role="button"
+                            <li class="nav-item dropdown">
+                                <a class="nav-link nav-option header-arrow" href="#" id="navbarDropdown" role="button"
                                     data-bs-toggle="dropdown" aria-expanded="false">
                                     About
                                 </a>

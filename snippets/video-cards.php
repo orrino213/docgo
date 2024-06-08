@@ -68,7 +68,7 @@
 		}
 	}
 </style>
-<section class="section-padding">
+<section class="">
 	<div class="container">
 		<div class="video-cards">
 			<h2>PROACTIVE <span>CARE NOW</span></h2>
@@ -119,8 +119,8 @@
 					<div class="item">
 						<div class="video-card">
 							<div class="video-container">
-								<video autoplay muted poster="<?php echo get_template_directory_uri() ?>/assets/img/card-4-poster.png" loop="true">
-									<source src="<?php echo get_template_directory_uri() ?>/assets/videos/card-4.mp4" type="video/mp4">
+								<video autoplay muted poster="<?php echo get_template_directory_uri() ?>/assets/img/card-2-poster.png" loop="true">
+									<source src="<?php echo get_template_directory_uri() ?>/assets/videos/card-2.mp4" type="video/mp4">
 								</video>
 							</div>
 							<div class="video-card-text">
@@ -172,7 +172,7 @@
 				<div class="video-card">
 					<div class="video-container">
 						<video autoplay muted poster="<?php echo get_template_directory_uri() ?>/assets/img/card-4-poster.png" loop="true">
-							<source src="<?php echo get_template_directory_uri() ?>/assets/videos/card-4.mp4" type="video/mp4">
+							<source src="<?php echo get_template_directory_uri() ?>/assets/videos/card-2.mp4" type="video/mp4">
 						</video>
 					</div>
 					<div class="video-card-text">

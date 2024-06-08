@@ -38,6 +38,10 @@
 		display:none;
 	}
 
+	.blog-section{
+		margin-top: 0px;
+	}
+
 	@media(min-width:992px){
 		.blog-section .blog-card{
 			display:flex;
@@ -98,8 +102,14 @@
 			text-decoration: underline;
 		}
 	}
+
+	.blog-section.margins{
+		margin-top: 0px;
+		margin-bottom: 0px;
+		padding-bottom: 45px;
+	}
 </style>
-<section class="section-padding blog-section">
+<section class="blog-section margins">
 	<div class="container desktop-container-narrow">
 		<h4>Recent Articles</h4>
 		<div class="blog-list ">

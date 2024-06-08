@@ -2,7 +2,7 @@
     
 .footer{
     padding: 0;
-    margin-top: 100px;
+    margin-top: 25px;
     background: #131E29;
 }
 

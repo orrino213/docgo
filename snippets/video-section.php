@@ -4,11 +4,11 @@
         background: #00B1CC;
     }
 
-    .container.video-section{
+    .video-section{
+        width: calc(100vw - 2 * 20px); 
+        margin: 25px 20px 75px 20px;
         background: #DFE7F0;
         border-radius: 10px;
-        margin-top: 0px;
-        margin-bottom: 50px;
         display: flex;
           justify-content: flex-start;
           text-align: left;
@@ -56,8 +56,8 @@
 
 </style>
 
-    <section class="section-padding">
-        <div class="container video-section">
+    <section class="">
+        <div class="video-section">
             <div class="row">
                 <div class="col-lg-12 banner-split">
                     <div class="talk-txt leading">

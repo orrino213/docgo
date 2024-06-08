@@ -8,6 +8,8 @@
 		display:flex;
 		flex-direction:row;
 		flex-wrap:wrap;
+		width: calc(100vw - 2 * 20px); 
+		margin: 0 20px 25px 20px;
 	}
 	.stay-updated .stay-text{
 		padding:22px 22px 0;
@@ -91,8 +93,7 @@
 		}
 	}
 </style>
-<section class="section-padding">
-	<div class="container">
+<section class="">
 		<div class="stay-updated">
 			<div class="stay-text">
 				<h4>Stay Updated</h4>
@@ -110,5 +111,4 @@
 				</form>
 			</div>
 		</div>
-	</div>
 </section>

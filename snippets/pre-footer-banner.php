@@ -1,5 +1,5 @@
 <style>
-    .container.pre-footer-container{
+    .pre-footer-container{
         background: #BAB8E5;
         border-radius: 10px;
         height: 350px;
@@ -9,6 +9,8 @@
         background-image:url(<?php echo get_template_directory_uri() ?>/assets/img/pre-footer-banner.png);
         background-repeat:no-repeat;
         background-size:cover;
+        width: calc(100vw - 2 * 20px); 
+        margin: 0 20px 0px 20px;
     }
 
     .custom-btn.learn-more{
@@ -42,7 +44,7 @@
 
 
 
-<div class="container pre-footer-container">
+<div class="pre-footer-container">
     <div class="row subscribe-wrap align-items-center me">
         <div class="col-lg-6">
             <div class="subs-txt">

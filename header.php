@@ -33,11 +33,15 @@
         stroke-width: 1.5px;
         stroke: #00B1CC;
     }
+
+    .header .index-header .new-position{
+        position: relative;
+    }
 </style>
 
 <body>
     <!-- Index Header Start -->
-    <header class="header index-header">
+    <header class="header index-header new-position">
         <div class="primary-navigation sticky-header top-navbar">
             <div class="container top-navbar">
                 <nav class="navbar navbar-expand-md navbar-light">

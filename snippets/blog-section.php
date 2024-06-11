@@ -1,3 +1,4 @@
+<?php $category = is_category('care-for-all') || is_category('healthcare-reimagined') || is_category('mobile-healthcare'); ?>
 <style>
 	.blog-section .blog-card{
 		display:block;
@@ -41,18 +42,32 @@
 	.blog-section{
 		margin-top: 0px;
 	}
-
+	.blog-section hr{
+		display:none;
+	}
+	.blog-section .load-more-container{
+		text-align:center;
+		margin-top:10px;
+	}
+	.blog-section .load-more{
+		border-radius: 7px;
+		border: 1px solid #000;
+		font-weight:bold;
+		padding:25px 48px;
+	}
 	@media(min-width:992px){
 		.blog-section .blog-card{
 			display:flex;
 			flex-direction: row;
 			justify-content: space-between;
-			background:#DFE7F0;
-			padding:62px 32px 82px;
+			<?php if(!$category){ ?>background:#DFE7F0;<?php } ?>
+			padding:62px 32px <?php if(!$category){ ?>82px<?php }else{ ?>38px<?php } ?>;
 		}
+		<?php if(!$category){ ?>
 		.blog-section .blog-card:first-child{
 			background:#E9E9F2;
 		}
+		<?php } ?>
 
 		.blog-section h4{
 			text-align:left;
@@ -101,6 +116,13 @@
 			opacity:0.75;
 			text-decoration: underline;
 		}
+		.blog-section hr{
+			display:block;
+			margin:0;
+		}
+		.blog-section .hr-padding{
+			margin:0 32px;
+		}
 	}
 
 	.blog-section.margins{
@@ -113,6 +135,15 @@
 	<div class="container desktop-container-narrow">
 		<h4>Recent Articles</h4>
 		<div class="blog-list ">
+			<?php 
+				if($category){
+			?>
+			<div class="hr-padding">
+				<hr>
+			</div>
+			<?php
+				}
+			?>
 			<div class="blog-card" href="#">
 				<div class="blog-title-section">
 					<div class="blog-category-title font-brand-blue">
@@ -131,6 +162,15 @@
 					<a href="#"><img src="<?php echo get_template_directory_uri() ?>/assets/img/blog-img-1.png"></a>
 				</div>
 			</div>
+			<?php 
+				if($category){
+			?>
+			<div class="hr-padding">
+				<hr>
+			</div>
+			<?php
+				}
+			?>
 			<div class="blog-card" href="#">
 				<div class="blog-title-section">
 					<div class="blog-category-title font-brand-blue">
@@ -149,6 +189,15 @@
 					<a href="#"><img src="<?php echo get_template_directory_uri() ?>/assets/img/blog-img-2.png"></a>
 				</div>
 			</div>
+			<?php 
+				if($category){
+			?>
+			<div class="hr-padding">
+				<hr>
+			</div>
+			<?php
+				}
+			?>
 			<div class="blog-card" href="#">
 				<div class="blog-title-section">
 					<div class="blog-category-title font-brand-blue">
@@ -168,5 +217,10 @@
 				</div>
 			</div>
 		</div>
+		<?php if($category){ ?>
+		<div class="load-more-container">
+			<button class="load-more">LOAD MORE</button>
+		</div>
+		<?php } ?>
 	</div>
 </section>

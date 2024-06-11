@@ -28,7 +28,6 @@ function your_theme_enqueue_scripts() {
 
     // // Enqueue a custom scripts
     wp_enqueue_script( 'your-theme-script-1', get_template_directory_uri() . '/consulpro html template/consulpro-v2.3/js/jquery-3.6.0.min.js');
-    wp_enqueue_script( 'your-theme-script-2', get_template_directory_uri() . '/consulpro html template/consulpro-v2.3/js/bootstrap.bundle.min.js');
     wp_enqueue_script( 'your-theme-script-3', get_template_directory_uri() . '/consulpro html template/consulpro-v2.3/js/jquery.scrollUp.min.js');
     wp_enqueue_script( 'your-theme-script-4', get_template_directory_uri() . '/consulpro html template/consulpro-v2.3/js/owl.carousel.min.js');
 }

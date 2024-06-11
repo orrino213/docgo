@@ -217,8 +217,10 @@
 				</div>
 			</div>
 		</div>
+		<?php if($category){ ?>
 		<div class="load-more-container">
 			<button class="load-more">LOAD MORE</button>
 		</div>
+		<?php } ?>
 	</div>
 </section>
